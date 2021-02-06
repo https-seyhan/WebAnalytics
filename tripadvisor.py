@@ -7,7 +7,6 @@ class TripadvisorSpider(scrapy.Spider):
 	start_urls= (
 		"https://www.tripadvisor.com.au/Restaurants-g255060-Sydney_New_South_Wales.html",
 		)
-
 	def parse(self, response):
 		urls = response.xpath('//h3[@class="title"]/a[@class="property_title"]/@href').extract()
 		print("Seyhan1")
