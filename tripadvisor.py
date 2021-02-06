@@ -16,7 +16,6 @@ class TripadvisorSpider(scrapy.Spider):
 			yield scrapy.Request(absolute_url, 
 				self.parse_restaurant)
 			
-		
 		#next_page
 		#next_page_url = response.xpath('//a[text()="Next"]').extract_first()
 		#next_absolute_url = response.urljoin(next_page_url)
