@@ -10,8 +10,7 @@ class TripadvisorSpider(scrapy.Spider):
 	def parse(self, response):
 		urls = response.xpath('//h3[@class="title"]/a[@class="property_title"]/@href').extract()
 		print("Seyhan1")
-		for url in urls:
-				
+		for url in urls:	
 			absolute_url = response.urljoin(url)
 			print(absolute_url)	
 			yield scrapy.Request(absolute_url, 
