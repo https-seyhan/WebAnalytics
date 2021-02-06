@@ -23,7 +23,6 @@ class TripadvisorSpider(scrapy.Spider):
 		#yield {"next_url", next_absolute_url}
 		#yield scrapy.Request(next_absolute_url, callback = self.parse)
 
-
 	def parse_restaurant(self, response):
 		print("Seyhan")
 		rating = response.xpath('//img[@property="ratingValue"]/@content').extract_first()
