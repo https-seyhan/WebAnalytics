@@ -24,7 +24,6 @@ class SimpleCrawler1(Crawler):
 #    In the meantime, other queued links will be crawled if possible.
   
 crawler1 = SimpleCrawler1(links=["http://www.clips.ua.ac.be/pages/pattern/"], domains=["ua.ac.be"], delay=0.0)
-  
 print ("CRAWLER 1 " + "-" * 50)
 while len(crawler1.visited) < 5: # Crawler.visited is a dictionary of all URL's visited so far.
     # The Crawler.crawl() method has the same optional parameters as URL.download(),
