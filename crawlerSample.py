@@ -88,7 +88,7 @@ while len(crawler5.visited) < 4:
   
 class SimpleCrawler2(Crawler):  
     def visit(self, link, source=None):
-        print "visiting:", link.url, "from:", link.referrer
+        print ("visiting:", link.url, "from:", link.referrer)
   
     def priority(self, link, method=DEPTH):
         if "?" in link.url:
