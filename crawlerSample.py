@@ -41,7 +41,7 @@ crawler2 = SimpleCrawler1(links=["http://www.clips.ua.ac.be/pages/pattern/"], do
 print "CRAWLER 2 " + "-" * 50
 while True:
     crawler2.crawl(cached=False)
-    print "wait..."
+    print ("wait...")
     # Of course we don't want this example to run forever,
     # so we still add a stop condition:
     if len(crawler2.visited) > 2:
@@ -56,8 +56,6 @@ while True:
 # which use DEPTH and BREADTH respectively.
   
 crawler3 = SimpleCrawler1(links=["http://www.clips.ua.ac.be/pages/pattern/"], delay=0.0)
-  
-
 print "CRAWLER 3 " + "-" * 50
 while len(crawler3.visited) < 3:
     crawler3.crawl(method=DEPTH)
