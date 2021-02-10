@@ -1,5 +1,4 @@
 import os, sys; sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
-  
 from pattern.web import Crawler, DEPTH, BREADTH, FIFO, LIFO
   
 # This example demonstrates how to use the Crawler class for web crawling.
