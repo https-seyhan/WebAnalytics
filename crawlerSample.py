@@ -12,8 +12,7 @@ from pattern.web import Crawler, DEPTH, BREADTH, FIFO, LIFO
   
 class SimpleCrawler1(Crawler):  
     def visit(self, link, source=None):
-        print "visiting:", link.url, "from:", link.referrer
-  
+        print "visiting:", link.url, "from:", link.referrer 
     def fail(self, link):
         print "failed:", link.url
   
