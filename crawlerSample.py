@@ -90,8 +90,7 @@ while len(crawler5.visited) < 4:
 #    FIFO means first-in-first-out: the earliest queued links will be visited sooner.
 #    LIFO means last-in-first-out: more recently queued links will be visited sooner.
   
-class SimpleCrawler2(Crawler):
-  
+class SimpleCrawler2(Crawler):  
     def visit(self, link, source=None):
         print "visiting:", link.url, "from:", link.referrer
   
