@@ -13,7 +13,7 @@ class SimpleCrawler1(Crawler):
     def visit(self, link, source=None):
         print "visiting:", link.url, "from:", link.referrer 
     def fail(self, link):
-        print "failed:", link.url
+        print ("failed:", link.url)
   
 # Create a new crawler.
 # 1) The links parameter is a list of URL's to visit.
