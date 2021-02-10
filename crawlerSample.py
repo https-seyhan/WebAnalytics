@@ -105,7 +105,7 @@ class SimpleCrawler2(Crawler):
 # you'll notice that the last external link at the bottom of the page is now visited first.
 crawler6 = SimpleCrawler2(links=["http://www.clips.ua.ac.be/pages/pattern/"], delay=0.1, sort=LIFO)
   
-print "CRAWLER 6 " + "-" * 50
+print ("CRAWLER 6 " + "-" * 50)
 while len(crawler6.visited) < 4:
     crawler6.crawl(method=BREADTH)
   
