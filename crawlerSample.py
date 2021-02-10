@@ -40,7 +40,7 @@ while len(crawler1.visited) < 5: # Crawler.visited is a dictionary of all URL's 
   
 crawler2 = SimpleCrawler1(links=["http://www.clips.ua.ac.be/pages/pattern/"], domains=["ua.ac.be"], delay=0.1)
   
-print
+
 print "CRAWLER 2 " + "-" * 50
 while True:
     crawler2.crawl(cached=False)
