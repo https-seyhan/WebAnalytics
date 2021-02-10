@@ -71,8 +71,7 @@ while len(crawler4.visited) < 3:
 crawler5 = SimpleCrawler1(links=["http://www.clips.ua.ac.be/pages/pattern/"], delay=0.1)
 print ("CRAWLER 5 " + "-" * 50)
 while len(crawler5.visited) < 4:
-    crawler5.crawl(method=DEPTH)
-  
+    crawler5.crawl(method=DEPTH)  
 # -------------------------------------------------------------------------------------------------
 # A BREADTH-crawler in an endless crawl loop will eventually queue the entire web for a visit.
 # But this is not possible of course: we can't keep the entire web in memory.
