@@ -60,7 +60,6 @@ while len(crawler3.visited) < 3:
     
 crawler4 = SimpleCrawler1(links=["http://www.clips.ua.ac.be/pages/pattern/"], delay=0.0)
   
-
 print "CRAWLER 4 " + "-" * 50
 while len(crawler4.visited) < 3:
     crawler4.crawl(method=BREADTH)
