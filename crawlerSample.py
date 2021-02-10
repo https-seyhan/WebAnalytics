@@ -56,7 +56,7 @@ while True:
 # which use DEPTH and BREADTH respectively.
   
 crawler3 = SimpleCrawler1(links=["http://www.clips.ua.ac.be/pages/pattern/"], delay=0.0)
-print "CRAWLER 3 " + "-" * 50
+print ("CRAWLER 3 " + "-" * 50)
 while len(crawler3.visited) < 3:
     crawler3.crawl(method=DEPTH)
   
