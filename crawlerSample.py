@@ -44,8 +44,7 @@ while True:
     # Of course we don't want this example to run forever,
     # so we still add a stop condition:
     if len(crawler2.visited) > 2:
-        break
-  
+        break  
 # -------------------------------------------------------------------------------------------------
 # If you create a crawler without a domains=[..] restriction, it is free to roam the entire web.
 # What to visit first? You can use Crawler.crawl() with an optional "method" parameter.
