@@ -21,7 +21,6 @@ species = np.array(stmarks.nodes())
 print(species)
 
 Adj = nx.to_scipy_sparse_matrix(stmarks, dtype=np.float64) #graph adjacency matrix 
-
 #number of species
 print(len(species))
 
