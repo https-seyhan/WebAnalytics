@@ -3,7 +3,7 @@
 # -*- coding: utf-8 -*-
 ""
 @author: saul
-"""
+""
 from urllib.parse import urlparse
 import scrapy 
 from scrapy.http import Request
@@ -11,7 +11,6 @@ from scrapy.http import TextResponse
 from scrapy.selector import Selector
 from scrapy import *
 import subprocess
-
 import PyPDF2
 from PyPDF2 import PdfFileReader, utils
 #import textract
