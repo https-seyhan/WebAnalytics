@@ -9,6 +9,7 @@ import os
 import matplotlib.pylab as plt
 from scipy import sparse
 from scipy.sparse.linalg import spsolve
+
 damping = 0.85
 beta = 1 - damping
 
