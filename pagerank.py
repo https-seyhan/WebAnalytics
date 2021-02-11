@@ -53,7 +53,6 @@ def page_rank_plot(in_degrees, pageranks, names, *, annotations = [], **figkwarg
     ax.set_ylabel('PageRank')
     ax.set_xlabel('In-degrees')
     
-
 interesting = ['detritus', 'phytoplankton', 'benthic algea', 'micro-epiphytes',
                'microfauna', 'zooplankton', 'predatory shrimps', 'meiofuna', 'gulls']
 
