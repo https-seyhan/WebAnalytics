@@ -17,7 +17,6 @@ np.seterr(divide = 'ignore')
 stmarks = nx.read_gml('stmarks.gml')
 
 print("Marks : ", stmarks)
-
 species = np.array(stmarks.nodes())
 
 print(species)
