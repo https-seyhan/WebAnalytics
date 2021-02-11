@@ -9,9 +9,6 @@ import os
 import matplotlib.pylab as plt
 from scipy import sparse
 from scipy.sparse.linalg import spsolve
-
-
-
 os.chdir("/home/saul/pythonWork")
 damping = 0.85
 beta = 1 - damping
