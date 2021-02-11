@@ -1,8 +1,7 @@
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Aug 21 20:33:27 2018
+""
 
 @author: saul
 """
