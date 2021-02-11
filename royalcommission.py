@@ -11,7 +11,6 @@ Created on Tue Aug 21 20:33:27 2018
 
 @author: saul
 """
-
 from urllib.parse import urlparse
 import scrapy 
 from scrapy.http import Request
