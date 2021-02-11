@@ -61,7 +61,6 @@ class pwc(scrapy.Spider):
         
         pdfdetails[PDFfilename] = pdfReader.numPages
         
-        
         num_pages = pdfReader.numPages
         count = 0
         text = ""
