@@ -75,5 +75,4 @@ class pwc(scrapy.Spider):
                 if word in keyword:
                     print("Page Number : ",count)
                 
-        
-        print("TEXT ", text)
+
