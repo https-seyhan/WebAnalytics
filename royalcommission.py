@@ -25,7 +25,6 @@ class pwc(scrapy.Spider):
 
     def parse(self, response):
         #subprocess.call(["rm output.csv","/home/saul/asic/asic/spiders"])
-        
         query = '//div[@class="srch-Title3"]/a/@href'
         urls = response.xpath(query).extract()
         #print ("URLLLL :", urls)
