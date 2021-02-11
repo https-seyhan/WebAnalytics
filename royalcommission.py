@@ -14,7 +14,6 @@ Created on Tue Aug 21 20:33:27 2018
 
 from urllib.parse import urlparse
 import scrapy 
-
 from scrapy.http import Request
 from scrapy.http import TextResponse
 from scrapy.selector import Selector
