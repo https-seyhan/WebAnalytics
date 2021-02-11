@@ -18,7 +18,6 @@ stmarks = nx.read_gml('stmarks.gml')
 
 print("Marks : ", stmarks)
 species = np.array(stmarks.nodes())
-
 print(species)
 
 Adj = nx.to_scipy_sparse_matrix(stmarks, dtype=np.float64) #graph adjacency matrix 
