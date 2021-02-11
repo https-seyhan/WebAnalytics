@@ -6,11 +6,11 @@
 import networkx as nx
 import numpy as np
 import os
-from scipy import sparse
-from scipy.sparse.linalg import spsolve
+
 
 import matplotlib.pylab as plt
-
+from scipy import sparse
+from scipy.sparse.linalg import spsolve
 damping = 0.85
 beta = 1 - damping
 
