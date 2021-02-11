@@ -23,8 +23,7 @@ print(species)
 Adj = nx.to_scipy_sparse_matrix(stmarks, dtype=np.float64) #graph adjacency matrix 
 
 #number of species
-n = len(species)
-print(n)
+print(len(species))
 
 #Get degrees
 degrees = np.ravel(Adj.sum(axis=1))
