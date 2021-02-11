@@ -56,7 +56,6 @@ class pwc(scrapy.Spider):
             #f.close()
             #yield from self.readPDF(filename)
             
-
     def save_pdf(self, response):
         path = response.url.split('/')[-1] #File name
         print("PATH :",path)
