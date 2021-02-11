@@ -14,7 +14,6 @@ import subprocess
 import PyPDF2
 from PyPDF2 import PdfFileReader, utils
 #import textract
-
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
