@@ -19,7 +19,6 @@ from nltk.corpus import stopwords
 
 class pwc(scrapy.Spider):
     name = "royal"
-
     allowed_domains = ["financialservices.royalcommission.gov.au",]
     #start_urls = ["http://www.pwc.com/us/en/tax-services/publications/research-and-insights.html"]
     start_urls = ["https://financialservices.royalcommission.gov.au/pages/results.aspx?k=munich re"]
